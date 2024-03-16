@@ -4,6 +4,10 @@ html {
     scroll-behavior: smooth;
 }
 
+p{
+    color: gray;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +17,10 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    font-weight: 500;
 }
 
 /* section{
@@ -80,4 +88,152 @@ body {
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.bio-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.bio-desc h2 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.bio-desc p {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+#biography {
+    background: url("../img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+#latest-work {
+    padding: 100px 0;
+    background-image: url("../img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.lw-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.lw-title h2 {
+    font-size: 45px;
+    font-weight: 500; 
+}
+
+.lw-display {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    margin-top: 30px;
+
+}
+
+.lw-item {
+    width: 25%;
+    height: 250px;
+    margin-left: 5%;
+}
+
+.lw-item img {
+    width: 100%;
+    height: 100%;
+}
+
+footer#footer {
+    padding-top: 50px;
+    background-image: url("../img/footer-bg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer-title {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-title h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.clients {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cl-details h3 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.cl-details p {
+    font-size: 15px;
+}
+
+.cl-details {
+    margin: 30px 0;
+}
+
+.cl-comment p {
+    color: #333;
+    font-weight: 500;
+}
+
+.footer-contact-details {
+    width: 60%;
+    margin: 0 auto 100px auto;
+    text-align: center;
+    /* height: 300px; */
+    background: #ed4c76;
+    padding: 46px 9px 40px 8px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.footer-contact-details p {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.footer-contact-details h2 {
+    color: white;
+}
+
+.cl-comment {
+    margin: 40px 0;
+}
+
+.end-area {
+    margin: 20px 0;
+    margin-top: 40px;
+    padding: 10px 0;
+    text-align: center;
 }
